@@ -122,15 +122,23 @@ python gen_report.py
 ## 📁 项目结构
 
 ```
-simulation/
-├── model.py           # 主模型（WuxiHumanGovernanceModel）
-├── agents.py          # 智能体定义（4 类）
-├── metrics.py         # 涌现指标计算（7 项）
-├── run_experiment.py  # 实验运行与可视化
-├── gen_report.py      # HTML 报告生成
-├── requirements.txt   # Python 依赖
-├── output/            # 实验输出目录
-└── 仿真参数校准依据表.docx
+├── .gitignore                   # Git 忽略规则
+├── README.md                    # 项目说明（本文件）
+└── simulation/                  # 仿真核心代码
+    ├── agents.py                # 智能体定义（4 类，10,000 个）
+    ├── model.py                 # 主模型（WuxiHumanGovernanceModel）
+    ├── metrics.py               # 涌现指标计算（7 项）
+    ├── run_experiment.py        # 实验运行与可视化（三组实验）
+    ├── gen_report.py            # HTML 报告生成（base64 嵌入图片）
+    ├── requirements.txt         # Python 依赖
+    └── output/                  # 实验输出（.gitignore 排除）
+        ├── exp1_baseline_traditional.csv   # 实验一数据
+        ├── exp2_wuxi_paradigm.csv          # 实验二数据
+        ├── exp3_stress_test.csv            # 实验三数据
+        ├── comparison.png                  # 情景对比图
+        ├── stress_test.png                 # 压力测试图
+        ├── 仿真实验报告.html               # 实验报告
+        └── 研究报告_人工智能驱动城市人文治理创新.html
 ```
 
 ## ⚙️ 核心参数（部分）
