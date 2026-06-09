@@ -1,5 +1,6 @@
 # 无锡城市人文治理多智能体仿真系统
 
+> **课题组**：无锡太湖学院 / 无锡民革 殷梦娇课题组
 > **课题编号**：WXSK26-C-107
 > **框架**：Python Mesa 3.x | **规模**：10,000 Agent 原型验证
 
@@ -160,9 +161,9 @@ MIT License
 ```bibtex
 @misc{wuxi-harmonious-city-2026,
   title   = {无锡城市人文治理多智能体仿真系统},
-  author  = {AicbLab},
+  author  = {殷梦娇},
   year    = {2026},
   url     = {https://github.com/AicbLab/wuxi-harmonious-city},
-  note    = {课题编号 WXSK26-C-107}
+  note    = {无锡太湖学院/无锡民革殷梦娇课题组, 课题编号 WXSK26-C-107}
 }
 ```
